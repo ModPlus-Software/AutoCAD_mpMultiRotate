@@ -1,5 +1,5 @@
 # mpMultiRotate
-Plugin allows you to rotate each of the selected objects relative to themselves
+Plugin allows you to rotate each of the selected entities relative to the Z-axis with the center of rotation relative to themselves
 ### Product ###
 AutoCAD >= 2013
 ### Plugin card ###
