@@ -145,6 +145,10 @@
 
 	<ItemGroup>
 	  <Resource Include="Resources\Help\mpMultiScale.png" />
+	  <Resource Include="Resources\mpMultiRotate_16x16.png" />
+	  <Resource Include="Resources\mpMultiRotate_16x16_dark.png" />
+	  <Resource Include="Resources\mpMultiRotate_32x32.png" />
+	  <Resource Include="Resources\mpMultiRotate_32x32_dark.png" />
 	</ItemGroup>
 
 </Project>
