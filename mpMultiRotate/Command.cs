@@ -36,7 +36,10 @@ public class Command
         {
             using (var tr = db.TransactionManager.StartTransaction())
             {
-                var opts = new PromptSelectionOptions();
+                var opts = new PromptSelectionOptions
+                {
+                    RejectObjectsOnLockedLayers = true
+                };
 
                 // Копия
                 opts.Keywords.Add(Language.GetItem(langItem, "msg1"));
